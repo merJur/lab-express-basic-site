@@ -1,0 +1,314 @@
+.container-fluid{
+    background-color: white;
+ }
+
+#body {
+    max-width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/fondo.png);
+}
+.gara-background{
+    width: 1300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20%;
+}
+.gara-background2{
+    width: 1000px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 35%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(222, 95, 95);
+    margin-bottom: 20px;
+}
+
+.left-column{
+    height: 900px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(222, 95, 95);
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    margin-right: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+   .left-column2{
+    height: 560px;
+    width: 450px;
+   display: flex;
+    flex-direction: column;
+    margin-top:60px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+   .left-column22{
+    height: 560px;
+    width: 500px;
+   display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+#h1-portada {
+  color: rgb(222, 95, 95);
+ margin-top: 50px;
+ margin-bottom: 60px ;
+ width: 400px;
+}
+p{ font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.pA1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+   padding-left: 180px;
+   padding-top: 10px;
+}
+
+.pA2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    width: 400px;
+   padding-left: 20px;
+   padding-top: 100px;
+}
+.pA3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    width: cover;
+   margin-left: 130px;
+   margin-right: 130px;
+   padding-top: 50px;
+  text-align: center;
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    background-color:  white;
+    padding: 0 5px 0 5px;
+
+}
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    background-color:  white;
+    padding: 20px 10px 10px 10px;
+    margin-left: 80px;
+}
+.p32{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    width: 550px;
+    padding-right: 20px;
+    padding-top: 10px;
+    }
+
+.h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    width: 75px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;;
+    color: rgb(222, 95, 95);
+}
+span{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.foto-portada {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 1100px;
+    margin-top: 45px;
+    border-radius: 5px;
+    border: 1px solid black ;
+    margin-left: 20px;
+  }
+  .foto-portada2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 600px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid black ;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+#not-found{
+    display: flex;
+  justify-content: center;
+  width: 800px;
+  border-radius: 5px;
+  align-items: center; 
+}
+
+.navbar-about{
+   
+    max-width: cover;
+    margin: 20px 0 5px 0;
+   
+}
+.p2-sobre-mi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(222, 95, 95);
+    margin-top: 50px;
+    margin-bottom: 60px ;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.p3-sobre-mi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    border: 1px solid rgb(222, 95, 95);
+    color: rgb(222, 95, 95);
+    margin-left: 70px;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding: 8px 50px 18px 50px;
+    
+}
+.eyes {
+    height: 60px;
+    margin-left: 1400px;
+    width: 260px;
+    border-radius: 5px;
+}
+.fondo{
+    background-image: url(/images/fondo.png);
+    position: absolute;
+}
+
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.row{
+    display: flex;
+    flex-direction: row;  
+     max-width: 1400px;
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 50px 200px 400px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 20px 80px 20px 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.image-gallery{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.section1{
+    border-radius: 5px;
+    border: 1px solid rgb(222, 95, 95);
+    background-color: white;
+    height: auto;
+    max-width: 1600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px 0 20px 150px;
+    padding: 20px 20px 20px 20px;
+}
+.gara-background3{
+    width: 1300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 45px;
+}
+.foto-soy-buena{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 600px;
+    margin-top: 45px;
+    border-radius: 5px;
+    border: 1px solid black ;
+    margin-left: 20px;
+}
+
+.foto-soy-buena1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    height: 600px;
+    margin-top: 45px;
+    border-radius: 5px;
+    border: 1px solid black ;
+    margin-left: 20px;
+}
+.foto-soy-buena-peq{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    margin-top: 45px;
+    border-radius: 5px;
+    border: 1px solid black ;
+    margin-left: 20px;
+}
+.gara-background4{
+    width: 1300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 45px;
+}
+.fotos-row{
+    width: 1200px;
+    margin-right: 20px;
+}
