@@ -312,3 +312,15 @@ span{
     width: 1200px;
     margin-right: 20px;
 }
+.carrusel{
+    display: flex;
+   margin-left: 200px;
+}
+.tamaño{
+    width: cover;
+    height: auto;
+}
+.tamaño-carrusel{
+    width: 800px;
+    height: auto;
+}
